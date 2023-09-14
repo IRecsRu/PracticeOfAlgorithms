@@ -8,7 +8,7 @@ namespace PracticeOfAlgorithmsTest;
 public class ProblemCandyTests
 {
 	[Test]
-	public void TwoSum_Example1()
+	public void Candy_Example1()
 	{
 		// Arrange
 		ProblemCandy solver = new ProblemCandy();
@@ -22,7 +22,7 @@ public class ProblemCandyTests
 	}
 
 	[Test]
-	public void TwoSum_Example2()
+	public void Candy_Example2()
 	{
 		// Arrange
 		ProblemCandy solver = new ProblemCandy();
@@ -36,7 +36,7 @@ public class ProblemCandyTests
 	}
 	
 	[Test]
-	public void TwoSum_Example3()
+	public void Candy_Example3()
 	{
 		// Arrange
 		ProblemCandy solver = new ProblemCandy();
@@ -50,7 +50,7 @@ public class ProblemCandyTests
 	}
 	
 	[Test]
-	public void TwoSum_Example4()
+	public void Candy_Example4()
 	{
 		// Arrange
 		ProblemCandy solver = new ProblemCandy();

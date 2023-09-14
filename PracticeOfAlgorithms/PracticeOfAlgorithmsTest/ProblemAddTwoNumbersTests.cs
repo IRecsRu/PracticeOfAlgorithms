@@ -3,6 +3,7 @@ using PracticeOfAlgorithms;
 
 namespace PracticeOfAlgorithmsTest;
 
+[TestFixture]
 public class ProblemAddTwoNumbersTests
 {
 	[Test]
@@ -34,7 +35,7 @@ public class ProblemAddTwoNumbersTests
 		ProblemAddTwoNumbers.ListNode l1 = new(9);
 		ProblemAddTwoNumbers.ListNode l2 = new(1);
 		ProblemAddTwoNumbers solver = new();
-		
+
 		ProblemAddTwoNumbers.ListNode l2T = l2;
 		for( int i = 0; i < 99; i++ )
 		{
